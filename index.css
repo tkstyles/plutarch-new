@@ -1,0 +1,76 @@
+.top{
+  display: flex;
+}
+
+.napoleon{
+    width: 500px;
+    height: 300px;
+}
+
+.napoleon:hover {
+    cursor: pointer;
+    width: 610px;
+    height: 410px;
+}
+
+.quote{
+    margin-top: 250px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+body{
+    background-image: url("background Image.png");
+    background-size: cover;     /* make it fill the page */
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.plutarch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.plutarch p{
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'EB Garamond', serif;;
+    padding: 40px;
+}
+
+.plutarch img{
+    
+    width: 300px;
+    height: 300px;
+}
+
+.lives-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.life-pair{
+    display: flex;
+    gap: 20px;
+    
+
+}
+
+.life-entry{
+    
+}
+
+.life-entry img{
+    width: 300px;
+    height: 300px;
+
+}
