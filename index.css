@@ -1,17 +1,19 @@
 .top {
   display: flex;
+  align-items: center;
 }
 
 .napoleon {
-  width: 500px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .napoleon:hover {
 }
 
 .quote {
-  margin-top: 150px;
   font-size: 20px;
   font-style: italic;
 }
@@ -21,6 +23,12 @@ body {
   background-size: cover; /* make it fill the page */
   background-repeat: no-repeat;
   background-position: center;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
 }
 
 .plutarch {
@@ -35,11 +43,6 @@ body {
   text-align: justify;
   font-family: "EB Garamond", serif;
   padding: 40px;
-}
-
-.plutarch img {
-  width: 300px;
-  height: 300px;
 }
 
 .lives-container {
@@ -58,10 +61,5 @@ body {
 .life-entry img:hover {
   transform: scale(1.05);
   box-shadow: 0 0 15px 5px black;
-}
-
-.life-entry img {
-  width: 300px;
-  height: 300px;
   cursor: pointer;
 }
