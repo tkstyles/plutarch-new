@@ -1,76 +1,67 @@
-.top{
+.top {
   display: flex;
 }
 
-.napoleon{
-    width: 500px;
-    height: 300px;
+.napoleon {
+  width: 500px;
+  height: 250px;
 }
 
 .napoleon:hover {
-    cursor: pointer;
-    width: 610px;
-    height: 410px;
 }
 
-.quote{
-    margin-top: 250px;
-    font-size: 20px;
-    font-style: italic;
+.quote {
+  margin-top: 150px;
+  font-size: 20px;
+  font-style: italic;
 }
 
-body{
-    background-image: url("background Image.png");
-    background-size: cover;     /* make it fill the page */
-    background-repeat: no-repeat;
-    background-position: center;
-
+body {
+  background-image: url("parchment.png");
+  background-size: cover; /* make it fill the page */
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.plutarch{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+.plutarch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.plutarch p{
-    font-size: 20px;
-    text-align: justify;
-    font-family: 'EB Garamond', serif;;
-    padding: 40px;
+.plutarch p {
+  font-size: 20px;
+  text-align: justify;
+  font-family: "EB Garamond", serif;
+  padding: 40px;
 }
 
-.plutarch img{
-    
-    width: 300px;
-    height: 300px;
+.plutarch img {
+  width: 300px;
+  height: 300px;
 }
 
-.lives-container{
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    justify-content: center;
-    align-items: center;
-
+.lives-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.life-pair{
-    display: flex;
-    gap: 20px;
-    
-
+.life-pair {
+  display: flex;
+  gap: 20px;
 }
 
-.life-entry{
-    
+.life-entry img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px 5px black;
 }
 
-.life-entry img{
-    width: 300px;
-    height: 300px;
-
+.life-entry img {
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
 }
